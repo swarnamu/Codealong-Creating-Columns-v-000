@@ -77,6 +77,12 @@ video, audio, img{
 }
 
 /*  LAYOUT */
+
+* {
+  -webkit-box-sizing: border-box; /* older version of safari */
+  -moz-box-sizing: border-box; /* Older version of firefox  */
+  box-sizing: border-box;
+}
 .wrapper{
   width: 960px;
   margin: 0 auto;
